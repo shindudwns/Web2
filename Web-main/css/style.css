@@ -202,6 +202,11 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 {background-color:#5ed3e2; font-size:22px; color:#fff; border-radius:18px;}
 #aboutme>.content1-right>.tag>ul>li:hover>a:active{background-color:#bbdcfb;}
 
+
+
+#skills>h2{margin-bottom:10px; font-size:70px; font-weight:500; color:#000000; letter-spacing:1px; text-align:center;}
+#skills>h2:first-child{padding-top:200px;}
+
 /* skill */
 .skill{
   background: url("../images/skill.svg") no-repeat 2% -64% / 2030px,
@@ -388,6 +393,7 @@ header>.container>nav>.gnb>li:hover>a,header>.container>nav>.gnb>li>a:focus,head
 #contact>.container>.link{width:394px; margin:0 auto;}
 #contact>.container>.link>a.fileOpen{width:140px; margin-right:10px;}
 #contact>.container>.link>a.git{width:140px;}
+#contact>.container>.link>a.underline{width:140px;} 
 #contact>.container>.link>a:hover,#contact>.container>.link>a:focus{color:#fff; background-color:#5ed3e2;}
 
 /* footer */

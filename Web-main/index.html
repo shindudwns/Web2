@@ -2,12 +2,12 @@
 <html lang="ko">
 
 <head>
-  <meta charset="UTF-8"> 
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minmum-scale=1.0,maximum-scale=1.0">
   <title>신영준 포트폴리오</title>
 
   
-                <!-- 팝업창 --><!-- 팝업창 -->
+                <!-- 팝업창 -->
                 <div class="popup">
                   <div class="popTxt">
                       <p>
@@ -46,19 +46,7 @@
   <script src="js/function.js"></script>
 
 
-   jQuery 설치 CDN
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-   google Corinthia /  Mochiy Pop P One
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
-   google noto sans korean / Architects Daughter-->
-   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-   google source sans fonts
-   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
-   <!-- Segoe UI Variable fonts -->
-   <link href="http://fonts.cdnfonts.com/css/segoe-ui-variable" rel="stylesheet">
+
 
 </head>
 
@@ -101,7 +89,7 @@
           <ul class="gnb clearfix">
             <li class="on"><a href="#">HOME</a></li>
             <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">LANGUAGE</a></li>
+            <li><a href="#">SKILLS</a></li>
             <li><a href="#">PORTFOLIO</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
@@ -122,7 +110,7 @@
 
     <section id="aboutme" class="content1 clearfix wow fadeIn" data-wow-delay="100ms">
       <div class="content1-left">
-        <h2>About me</h2>
+        <h2>■ Profile ■ </h2>
 
         <a >
           <p class="img">더 알아보기</p>
@@ -142,10 +130,12 @@
               <br>
               이    름 : 신영준<br>
               생    일 : 1999.03.06<br>
+              MBTI :  ENFJ<br>
               학    력 : 군산대학교 컴퓨터정보공학과 재학 중<br>
               사용 언어: C++,Python,JavasCript,html 등<br>
-              사회 경험 : 有<br>
+              경    력 : <br>
               &middot; 2018.12.30 - 2021.2.14 군 복무 대체 산업체 - (주)협심 근무<br>
+              &middot; 2022.07.01 - 2022.8.26 빅데이터 전문가 양성교육 - 320시간 과정<br><br><br>
             </li>
           </ul>
   <!-- 
@@ -170,9 +160,30 @@
         </div><!--end of right-->
       </section><!--end of about me-->
 
-    <hr>
 
-    <section class="skill" id="b">
+      <!-- <section id="skills" class="content2 wow fadeIn" data-wow-delay="100ms">
+        <h2>Main Language</h2>
+        <div class="coding_img"></div>
+  
+        <ol class="skill clearfix">
+          <li>C++</li>
+        </ol>
+  
+        <h2>Use Language</h2> -->
+
+
+        <section id="skills" class="content2 wow fadeIn" data-wow-delay="100ms">
+
+          <div class="coding_img"></div>
+
+          <ol class="skill clearfix">
+          </ol>
+          <ol class="tool clearfix">
+          </ol>
+    <hr>
+    <h2>Skills</h2>
+        
+    <section class="skill" id="b" >
       <div class="section_inner">
         <h2>Ability Language</h2>
         <div class="skill_ani">
@@ -415,30 +426,51 @@
 
     <hr>
 
-
-
     <section id="contact" class="content5 wow fadeIn" data-wow-delay="100ms">
       <h2>Contact</h2>
       <div class="contact_img"></div>
-
+      <a href="https://github.com/shindudwns" target="_blank"></a>
       <div class="container">
         <p>
           "끊임없이 노력하고 발전해가는,<br>
           <strong>최고보다 최선을 다하여  </strong>실행에 옮기는<br>
-          <strong>프로그래머, 신영준</strong>이 되겠습니다."
+          <strong>프로그래머, 신영준</strong>이 되겠습니다."<br>
+          <br>
+          
         </p>
         <p>
-          연락처 : shindudwns@naver.com, 010-2541-1083<br>
         </p>
-  
         <div class="link clearfix">
+         
           <a href="https://blog.naver.com/skql3690" class="fileOpen" target="_blank">blog 바로가기</a>
           <a href="https://github.com/shindudwns" class="git" target="_blank">GIT 바로가기</a>
+          <br>
+          <br>
+           <a href="mailto:shindudwns@naver.com" target="_blank" rel="noopener noreferrer" class="underline"> e-Mail 보내기</a><br>
         </div>
       </div>
     </section><!--end of contact-->
 
     <hr>
+    <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web-project-9.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
     <footer>
       <address>
